@@ -1,0 +1,22 @@
+.banner {
+background-color: #4CAF50;
+color: white;
+text-align: left;
+Padding: 60px 20px;
+font-size: 24px;
+height: 300;
+position: sticky;
+
+}
+.banner-title {
+  position: absolute;
+  
+ top: -40px;
+ right: 90px;
+}
+.banner-text {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  
+}

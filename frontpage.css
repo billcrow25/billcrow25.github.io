@@ -1,0 +1,39 @@
+.banner-title {
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    height: 50px;
+    width: 70%;
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    background-color: #04D9FF;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    position: fixed;
+    top: calc(30% + 50px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-color: teal;
+    margin: 0;
+}
